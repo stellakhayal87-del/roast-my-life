@@ -52,7 +52,7 @@ export default function RoastMe() {
   };
 
   // PASTE YOUR N8N WEBHOOK URL HERE
-  const N8N_WEBHOOK_URL = "YOUR_N8N_WEBHOOK_URL_HERE";
+  const N8N_WEBHOOK_URL = "https://stellakhayal87.app.n8n.cloud/webhook-test/roast";
 
   const handleRoast = async () => {
     if (!selected || !input.trim()) return;
